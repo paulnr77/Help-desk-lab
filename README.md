@@ -32,13 +32,13 @@ This project documents my help-desk and system administration home lab built on 
 - Windows domain-joined client
 
 ## High-Level Architecture
--Air gapped lab for better security of my home network
+- Partialy Air gapped lab for better security of my home network, connected to the main network when needeed
 - NIC 1 on the Windows PC connected to the home network
-- NIC 2 on the Windows PC connected to the lab network
+- NIC 2 on the Windows PC connected to the lab network router
 - Proxmox host connected to the lab router
 - Windows Server 2019 deployed as `DC01`
 - `DC01` configured as Domain Controller and DNS server
-- Physical Windows laptop joined to the domain as a client
+- Physical Windows laptop joined to the domain as a client through router
 
 ## Core Components
 
@@ -61,7 +61,7 @@ This project documents my help-desk and system administration home lab built on 
 - Troubleshooting authentication, DNS, and VM startup issues
 - Help-desk style issue resolution
 
-## Problems that i faced during working on lab
+## Problems that i faced while working on this lab
 
 ### 1. KVM virtualization was not available on my DEL R610
 - Error: `KVM virtualisation configured, but not available`
