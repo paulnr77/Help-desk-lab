@@ -61,9 +61,9 @@ This project documents my help-desk and system administration home lab built on 
 - Troubleshooting authentication, DNS, and VM startup issues
 - Help-desk style issue resolution
 
-## Key Troubleshooting Highlights
+## Problems that i faced during working on lab
 
-### 1. KVM virtualization not available
+### 1. KVM virtualization was not available on my DEL R610
 - Error: `KVM virtualisation configured, but not available`
 - Cause: virtualization disabled in BIOS
 - Fix: enabled virtualization in Dell R610 BIOS
